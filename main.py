@@ -1,6 +1,6 @@
 import telebot
 
-bot = telebot.TeleBot("ВАШ КОД СЮДА НАДО")
+bot = telebot.TeleBot("8729546769:AAFRDSn0tjcfUAZzzA9jbP2rRs4OShcaJxE")
 
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
